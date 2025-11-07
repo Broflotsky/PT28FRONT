@@ -1,5 +1,6 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 interface LinkGroupInterface {
-  children: JSX.Element;
+  children: any;
   header: string;
 }
 
